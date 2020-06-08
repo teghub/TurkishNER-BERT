@@ -3,6 +3,9 @@
 
 
 ### Folder Description:
+bert and multi_cased_L-12_H-768_A-12 should be extracted this directory.
+
+
 ```
 BERT-NER
 |____ bert                          # need git from [here](https://github.com/google-research/bert)
