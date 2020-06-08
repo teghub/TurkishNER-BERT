@@ -58,11 +58,10 @@ java CRF_Eval
 ### How is the Model trained?
 
 Update bert/optimization.py 
-...
+```
 tvars = tf.trainable_variables()
 tvars = [v for v in tvars if 'bert' not in v.name]   ## update the condition 
-
-...
+```
 
 ### reference:
 
